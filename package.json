@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "this looks good",
+  "main": "firstnode.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TusharMann/NodeJs.git"
+  },
+  "keywords": [
+    "any",
+    "keywords"
+  ],
+  "author": "teachers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TusharMann/NodeJs/issues"
+  },
+  "homepage": "https://github.com/TusharMann/NodeJs#readme"
+}

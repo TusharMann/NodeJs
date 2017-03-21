@@ -25,7 +25,7 @@ Student.methods(['get','put','post','delete']);
 
 Student.register(router,'/students');
 
-router.get('/students',function(req,res) {
+/*router.get('/students',function(req,res) {
 	//res.send('api is working');
 	Student.getGem(function(err,generes){
 		if(err){
@@ -34,7 +34,13 @@ router.get('/students',function(req,res) {
 		res.json(generes);
 	});
 	
-});
+});*/
+
+var Book=require('../models/books');
+Book.methods(['get','put','post','delete']);
+
+Book.register(router,'/books');
+
 
 
 

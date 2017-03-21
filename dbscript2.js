@@ -16,7 +16,14 @@ var obj3= {
 	"male":true
 };
 
+var obj4={
+	"name":"Aakash",
+	"roll":10,
+	"male":true,
+	"result":[obj1,obj2,obj3]
+}
+
 use mDB;
 
-db.students.insert([obj1,obj2,obj3]);
-db.students.find().pretty();
+db.books.insert(obj4);
+db.books.find().pretty();

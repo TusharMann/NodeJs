@@ -5,11 +5,24 @@ var obj1= {
 };
 
 var obj2= {
-	"name":"Rishabh",
-	"roll":56,
+	"name":"Rahul",
+	"roll":95,
 	"male":true
 };
 
+var obj3= {
+	"name":"Tarun",
+	"roll":94,
+	"male":true
+};
+
+var obj4= {
+	"name":"Rishabh",
+	"roll":56,
+	"male":true,
+	"result":[obj1,obj2,obj3]
+};
+
 use mDB;
-db.mDB.insert([obj1,obj2]);
-db.mDB.find().pretty();
+db.db.insert([obj4]);
+db.db.find().pretty();

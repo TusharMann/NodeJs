@@ -1,7 +1,7 @@
 var restful = require('node-restful');
 var mongoose = restful.mongoose;
 
-var KohinoorSchema = new mongooseSchema({
+var KohinoorSchema = new mongoose.Schema({
 	result:[{
 		language:String,
 		key: String,

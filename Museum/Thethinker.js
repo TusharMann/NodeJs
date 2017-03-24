@@ -1,7 +1,7 @@
 var restful = require('node-restful');
 var mongoose = restful.mongoose;
 
-var ThethinkerSchema = new mongooseSchema({
+var ThethinkerSchema = new mongoose.Schema({
 	result:[{
 		language:String,
 		key: String,

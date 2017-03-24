@@ -1,4 +1,4 @@
-var obj3= {                                              //allan hills
+var obj3 = {                                              //allan hills
 	result:[{
 	"language":"English",
 		"key": "f0EZKKjyJgs",
@@ -32,5 +32,5 @@ var obj3= {                                              //allan hills
 	}]
 };
 use appdb;
-db.Allanhill.insert(obj3);
-db.Allanhill.find().pretty();
+db.allanhill.insert(obj3);
+db.allanhill.find().pretty();

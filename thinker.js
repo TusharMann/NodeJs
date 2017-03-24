@@ -1,7 +1,7 @@
 var restful = require('node-restful');
 var mongoose = restful.mongoose;
 
-var ThethinkerSchema = new mongoose.Schema({
+var thinkerSchema = new mongoose.Schema({
 	result:[{
 		language:String,
 		key: String,
@@ -9,4 +9,4 @@ var ThethinkerSchema = new mongoose.Schema({
 		context: String
 	}]
 });
-module.exports = restful.model('Thethinker',ThethinkerSchema); 
+module.exports = restful.model('Thethinker',thinkerSchema); 

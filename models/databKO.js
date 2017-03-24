@@ -1,5 +1,5 @@
 var obj4={    
-result:[                                           //kohinoor
+"result":[                                           //kohinoor
 	{
 	"language":"English",
 		"key": "___nk_OiVSk",
@@ -28,5 +28,5 @@ result:[                                           //kohinoor
   }]
 };
 use appdb;
-db.Kohinoor.insert(obj4);
-db.Kohinoor.find().pretty();
+db.kohinoorms.insert(obj4);
+db.kohinoorms.find().pretty();

@@ -1,5 +1,5 @@
 var obj1={
-result:[ {                                           //the thinker
+"result":[ {                                           //the thinker
 	"language":"English",
 		"key": "jha6SvVLXjU",
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/The_Thinker%2C_Rodin.jpg/390px-The_Thinker%2C_Rodin.jpg",
